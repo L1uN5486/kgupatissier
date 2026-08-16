@@ -26,13 +26,14 @@
         .button-grid {
             display: grid;
             grid-template-columns: repeat(2, 1fr); /* 가로를 2칸으로 똑같이 나눔 */
-            gap: 25px; /* 버튼 사이의 간격 */
+            row-gap: 30px;
+            column-gap: 16px;
             width: 90%; 
             max-width: 400px; /* 그리드의 최대 너비 제한 */
             margin: 50px auto; /* 중앙 정렬 및 위아래 여백 */
         }
         .button-grid button {
-            padding: 20px; /* 버튼 안쪽 여백(크기) */
+            padding: 15px; /* 버튼 안쪽 여백(크기) */
             font-size: 18px; /* 글자 크기 */
             font-weight: bold;
             background-color: rgba(255, 255, 255, 0.4); /* 반투명한 흰색 배경 */
